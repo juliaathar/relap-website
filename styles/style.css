@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: sourceregular;
-    src: url();
+    src: url(../assets/fonts/SourceSansPro-Regular.ttf);
 }
 
 /* ------------ fontes ---------- */
@@ -38,13 +38,14 @@ h1 {
     margin: 0 auto;
 }
 
-/* ------------------------------------------------ HEADER -------------------------------------------------- */
+.container {
+    background-image: linear-gradient(to left bottom, rgba(48, 35, 174, 1), rgba(200, 109, 215, 1));
+}
 
+/* ------------------------------------------------ HEADER -------------------------------------------------- */
 .headerRelap {
     width: 100%;
     height: 85px;
-
-    background-color: red;
 }
 
 .header {
@@ -62,7 +63,7 @@ h1 {
     border: none;
 }
 
-#inputHeade::placeholder {
+#inputHeader::placeholder {
     color: #333333;
     font-family: sourceregular;
     font-size: 24px;
@@ -81,4 +82,17 @@ h1 {
     font-size: 16px;
     text-decoration: none;
     color: #ffffff;
+}
+
+/* --------------------------------------- HOME ------------------------------------ */
+
+.homeRelap{
+    width: 100%;
+    height: 688px;
+
+}
+
+#pcHome{
+    width: 884px;
+    height: 576px;
 }
