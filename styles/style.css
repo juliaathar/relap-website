@@ -15,11 +15,23 @@
     src: url(../assets/fonts/SourceSansPro-Regular.ttf);
 }
 
+@font-face {
+    font-family: sourcebold;
+    src: url(../assets/fonts/SourceSansPro-Bold.ttf);
+}
+
 /* ------------ fontes ---------- */
 
 h1 {
     font-family: poppinsbold;
     font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: poppinsbold;
+    font-size: 16px;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -66,7 +78,9 @@ h1 {
 #inputHeader::placeholder {
     color: #333333;
     font-family: sourceregular;
-    font-size: 24px;
+    font-size: 16px;
+
+    padding-left: 15px; 
 }
 
 .navMenu {
@@ -95,4 +109,17 @@ h1 {
 #pcHome{
     width: 884px;
     height: 576px;
+}
+
+#mainButton {
+    width: 170px;
+    height: 48px;
+
+    background-color: #FFC300;
+    color: #ffffff;
+
+    border-radius: 24px;
+    border: none;
+
+    font-family: sourcebold;
 }
