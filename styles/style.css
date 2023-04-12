@@ -40,6 +40,7 @@ p {
     font-family: sourceregular;
     font-size: 16px;
     color: #333333;
+    opacity: 50%;
 }
 
 /* classes genéricas */
@@ -167,6 +168,9 @@ p {
     height: 88px;
 
     margin: none;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .boxes{
@@ -181,5 +185,13 @@ p {
     font-size: 24px;
     text-transform: none;
     color: #333333;
+    
     margin-left: 15px;
+}
+
+#pInfo{
+    width: 205px;
+    height: 40px;
+
+    margin-left: 65px;
 }
