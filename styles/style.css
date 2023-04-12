@@ -36,6 +36,12 @@ h3 {
     text-transform: uppercase;
 }
 
+p {
+    font-family: sourceregular;
+    font-size: 16px;
+    color: #333333;
+}
+
 /* classes genéricas */
 
 * {
@@ -105,12 +111,12 @@ h3 {
     height: 688px;
 
     display: flex;
-
-    border: red solid 3px;
 }
 
 .pcHome {
-
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 #pcHomeImg{
@@ -119,12 +125,16 @@ h3 {
 }
 .home{
     width: 440px;
-    height: 275px;
+    height: 100%px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+#mainH1 {
+    text-transform: none;
 }
 
 #mainButton {
@@ -138,4 +148,38 @@ h3 {
     border: none;
 
     font-family: sourcebold;
+}
+
+/* -------------------------------------------------- SECTION MORE INFORMATION -------------------------------------*/
+
+.moreInfo{
+    height: 288px;
+
+    background-color: #FDF2FF;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxesInfo{
+    width: 1151px;
+    height: 88px;
+
+    margin: none;
+}
+
+.boxes{
+    width: 260px;
+}
+
+.boxTitle{
+    display: flex;
+}
+
+#infoH3{
+    font-size: 24px;
+    text-transform: none;
+    color: #333333;
+    margin-left: 15px;
 }
