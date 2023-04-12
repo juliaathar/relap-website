@@ -225,6 +225,10 @@ p {
     align-items: center;
 }
 
+#pTextCenter{
+    text-align: center;
+}
+
 .productsItem{
     width: 1129px;
     height: 341px;
@@ -234,7 +238,43 @@ p {
 }
 
 .product1{
-    width: ;
+    width: 272px;
+    height: 323px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product2{
+    width: 272px;
+    height: 323px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product3{
+    width: 272px;
+    height: 323px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product4{
+    width: 272px;
+    height: 323px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #textProducts{
