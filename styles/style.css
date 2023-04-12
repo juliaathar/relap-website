@@ -29,6 +29,12 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-family: poppinsbold;
+    font-size: 56px;
+    color: #333333;
+}
+
 h3 {
     font-family: poppinsbold;
     font-size: 16px;
@@ -202,4 +208,40 @@ p {
     height: 768px;
 
     background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textsProducts{
+    width: 570px;
+    height: 186px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productsItem{
+    width: 1129px;
+    height: 341px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.product1{
+    width: ;
+}
+
+#textProducts{
+    color: #333333;
+}
+
+#pSeeAll{
+    font-family: sourcesemibold;
+    opacity: 100%;
 }
