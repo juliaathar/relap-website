@@ -307,7 +307,11 @@ p {
 }
 
 .tabs{
+    width: 1170px;
+    height: 480px;
+
     display: flex;
+    justify-content: space-between;
 }
 
 .celTab{
@@ -344,4 +348,32 @@ p {
     border-color: #C86DD7;
     
     font-family: sourcebold;
+}
+
+.doubleTab{
+    width: 770px;
+    height: 224px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabD1{
+    width: 370px;
+    height: 224px;
+
+    background-color: #ffffff;
+}
+
+.noteTab{
+    width: 770px;
+    height: 224px;
+
+    background-color: #ffffff;
+}
+
+.phoneAndNoteTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
