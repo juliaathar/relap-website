@@ -377,3 +377,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
 }
+
+#price{
+    font-size: 16px;
+}
