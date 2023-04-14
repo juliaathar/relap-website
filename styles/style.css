@@ -387,6 +387,17 @@ p {
     height: 224px;
 
     background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#noteTabTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 30px;
 }
 
 .phoneAndNoteTab{
@@ -397,12 +408,6 @@ p {
 
 #price{
     font-size: 16px;
-}
-
-#imgNoteTab{
-    position: relative;
-    bottom: 56px;
-    left: 108px;
 }
 
 /* --------------------------------------------- SHOPPING SECTION --------------------------------- */
