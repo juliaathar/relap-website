@@ -42,7 +42,7 @@ h3 {
     text-transform: uppercase;
 }
 
-h4{
+h4 {
     font-family: poppinsbold;
     font-size: 24px;
     color: #333333;
@@ -99,13 +99,13 @@ p {
     font-family: sourceregular;
     font-size: 16px;
 
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
 .navMenu {
     width: 342px;
     height: 17px;
-    
+
     display: flex;
     justify-content: space-between;
 }
@@ -119,7 +119,7 @@ p {
 
 /* --------------------------------------- HOME ------------------------------------ */
 
-.homeRelap{
+.homeRelap {
     width: 100%;
     height: 688px;
 
@@ -132,11 +132,12 @@ p {
     align-items: end;
 }
 
-#pcHomeImg{
+#pcHomeImg {
     width: 884px;
     height: 576px;
 }
-.home{
+
+.home {
     width: 440px;
     height: 100%;
 
@@ -164,17 +165,17 @@ p {
 
 /* -------------------------------------------------- SECTION MORE INFORMATION -------------------------------------*/
 
-.moreInfo{
+.moreInfo {
     height: 288px;
 
-    background-color: #FDF2FF;  
+    background-color: #FDF2FF;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.boxesInfo{
+.boxesInfo {
     width: 1151px;
     height: 88px;
 
@@ -184,23 +185,23 @@ p {
     justify-content: space-between;
 }
 
-.boxes{
+.boxes {
     width: 260px;
 }
 
-.boxTitle{
+.boxTitle {
     display: flex;
 }
 
-#infoH3{
+#infoH3 {
     font-size: 24px;
     text-transform: none;
     color: #333333;
-    
+
     margin-left: 15px;
 }
 
-#pInfo{
+#pInfo {
     width: 205px;
     height: 40px;
 
@@ -221,7 +222,7 @@ p {
     align-items: center;
 }
 
-.textsProducts{
+.textsProducts {
     width: 570px;
     height: 186px;
 
@@ -231,11 +232,11 @@ p {
     align-items: center;
 }
 
-#pTextCenter{
+#pTextCenter {
     text-align: center;
 }
 
-.productsItem{
+.productsItem {
     width: 1129px;
     height: 341px;
 
@@ -243,7 +244,7 @@ p {
     justify-content: space-between;
 }
 
-.product1{
+.product1 {
     width: 272px;
     height: 323px;
 
@@ -253,7 +254,7 @@ p {
     align-items: center;
 }
 
-.product2{
+.product2 {
     width: 272px;
     height: 323px;
 
@@ -263,7 +264,7 @@ p {
     align-items: center;
 }
 
-.product3{
+.product3 {
     width: 272px;
     height: 323px;
 
@@ -273,7 +274,7 @@ p {
     align-items: center;
 }
 
-.product4{
+.product4 {
     width: 272px;
     height: 323px;
 
@@ -283,18 +284,18 @@ p {
     align-items: center;
 }
 
-#textProducts{
+#textProducts {
     color: #333333;
 }
 
-#pSeeAll{
+#pSeeAll {
     font-family: sourcesemibold;
     opacity: 100%;
 }
 
 /* ------------------------------------------------------------ TABS SECTION --------------------------------------------------------------- */
 
-.shopSections{
+.shopSections {
     width: 100%;
     height: 768px;
 
@@ -306,7 +307,13 @@ p {
     align-items: center;
 }
 
-.tabs{
+.textShop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs {
     width: 1170px;
     height: 480px;
 
@@ -314,7 +321,7 @@ p {
     justify-content: space-between;
 }
 
-.celTab{
+.celTab {
     width: 370px;
     height: 480px;
 
@@ -326,7 +333,7 @@ p {
     align-items: center;
 }
 
-#celTabTexts{
+#celTabTexts {
     width: 100%;
 
     padding: 30px;
@@ -337,20 +344,20 @@ p {
     justify-content: center;
 }
 
-#shopNow{
+#shopNow {
     width: 170px;
     height: 48px;
 
     background-color: #ffffff;
     color: #C86DD7;
-    
+
     border-radius: 24px;
     border-color: #C86DD7;
-    
+
     font-family: sourcebold;
 }
 
-.doubleTab{
+.doubleTab {
     width: 770px;
     height: 224px;
 
@@ -358,7 +365,7 @@ p {
     justify-content: space-between;
 }
 
-.tabD1{
+.tabD1 {
     width: 370px;
     height: 224px;
 
@@ -366,7 +373,7 @@ p {
 
 }
 
-#imgTabD1{
+#imgTabD1 {
     width: 305px;
     height: 198px;
 
@@ -375,14 +382,14 @@ p {
     left: 65px;
 }
 
-.tabD2{
+.tabD2 {
     width: 370px;
     height: 224px;
 
     background-color: #ffffff;
 }
 
-.noteTab{
+.noteTab {
     width: 770px;
     height: 224px;
 
@@ -392,7 +399,7 @@ p {
     justify-content: space-between;
 }
 
-#noteTabTexts{
+#noteTabTexts {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -400,21 +407,117 @@ p {
     padding: 30px;
 }
 
-.phoneAndNoteTab{
+.phoneAndNoteTab {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#price{
+#price {
     font-size: 16px;
 }
 
 /* --------------------------------------------- SHOPPING SECTION --------------------------------- */
 
-.shopping{
+.shopping {
     width: 100%;
     height: 768px;
+    padding: 30px;
 
     background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navShopping {
+    width: 1170px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#navShopping {
+    width: 411px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#navShopping a {
+    font-family: sourcesemibold;
+    font-size: 16px;
+    color: #333333;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+#itensPrice{
+    font-family: sourcesemibold;
+}
+
+.productsShopping{
+    width: 1170px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 270px;
+    height: 432px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: #C86DD7 4px solid; */
+    box-shadow: 16px 16px 48px 0px rgba(0, 0, 0, 0.09);
+}
+
+#circle{
+    width: 48px;
+    height: 48px;
+
+    border: #C86DD7 1px solid;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textsItems{
+    width: 206px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows{
+    width: 104px;
+    height: 48px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    width: 48px;
+    height: 48px;
+    
+    border: #C86DD7 1px solid;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
