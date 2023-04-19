@@ -529,4 +529,22 @@ p {
     height: 768px;
 
     background-color: #FDF2FF;
+
+    display: flex;
+    justify-content: center;
 }
+
+.h1AndTime{
+    width: 1170px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+time{
+    font-family: poppinsbold;
+    font-size: 40px;
+    color: #333333;
+  }
