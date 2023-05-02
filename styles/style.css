@@ -533,6 +533,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .h1AndTime {
@@ -550,7 +551,7 @@ time {
     color: #333333;
 }
 
-.productsSpecifications{
+.productsSpecifications {
     width: 1170px;
     height: 475px;
 
@@ -564,13 +565,21 @@ time {
     width: 270px;
     height: 368px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-left: 30px;
+
+
     background-color: #ffffff;
     border-radius: 3px;
     box-shadow: 16px 16px 48px 0px rgba(0, 0, 0, 0.09);
 }
 
 #navProducts {
-    width: 411px;
+    width: 74px;
+    height: 216px;
 
     display: flex;
     flex-direction: column;
@@ -586,7 +595,57 @@ time {
     text-decoration: none;
 }
 
-.moreSpecification{
+.moreSpecification {
     width: 370px;
     height: 411px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricesTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.priceSpx {
+    width: 99px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#qttTxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pQtt{
+    font-family: sourcesemibold;
+    font-size: 16px;
+    opacity: 100%;
+}
+
+.greyBar{
+    width: 370px;
+    height: 16px;
+
+    background-color: #EDEDEDED;
+    border-radius: 3px;
+}
+
+#buttonCart{
+    width: 170px;
+    height: 48px;
+
+    background-color: #C86DD7;
+    color: #ffffff;
+
+    border-radius: 24px;
+    border: none;
+
+    font-family: sourcebold;
 }
