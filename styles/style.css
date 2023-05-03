@@ -660,6 +660,8 @@ time {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cardsBox{
@@ -667,15 +669,20 @@ time {
     height: 416px;
 
     display: flex;
+    justify-content: space-between;
 }
 
 .card{
     width: 370px;
     height: 416px;
+
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 16px 16px 48px 0px rgba(0, 0, 0, 0.09);
 }
 
 .txtsCards{
-    width: 100%;
+    width: 1170px;
     height: 94px;
 }
 
@@ -683,4 +690,47 @@ time {
     font-family: sourcesemibold;
     font-size: 12px;
     opacity: 100%;
+}
+
+/* ---------------------------------------------------------- FOOTER ----------------------------------------------------------------- */
+
+footer{
+    width: 100%;
+    height: 720px;
+}
+
+
+.footerTop{
+    height: 384px;
+    
+    background-color: #3023AE;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coluna1{
+    width: 470px;
+    height: 185px;
+}
+
+#footerH1{
+    font-family: poppinsbold;
+    font-size: 56px;
+
+    text-transform: none;
+}
+
+#pFooter {
+    font-family: sourceregular;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.coluna2{
+    width: 570px;
+    height: 48px;
+
+    display: flex;
 }
