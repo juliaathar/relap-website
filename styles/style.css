@@ -649,3 +649,38 @@ time {
 
     font-family: sourcebold;
 }
+
+/* ----------------------------------------------------------------- CARDS SECTION --------------------------------------------------- */
+
+.cards{
+    width: 100%;
+    height: 768px;
+
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsBox{
+    width: 1170px;
+    height: 416px;
+
+    display: flex;
+}
+
+.card{
+    width: 370px;
+    height: 416px;
+}
+
+.txtsCards{
+    width: 100%;
+    height: 94px;
+}
+
+#dateTxt{
+    font-family: sourcesemibold;
+    font-size: 12px;
+    opacity: 100%;
+}
