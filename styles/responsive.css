@@ -1,0 +1,12 @@
+/* ************************************** DESKTOP FIRST ************************* */
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+
+    .headerRelap {
+        width: 375px;
+        
+    }
+
+}
