@@ -604,7 +604,7 @@ time {
     justify-content: space-between;
 }
 
-.pricesTexts{
+.pricesTexts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -623,13 +623,13 @@ time {
     justify-content: space-between;
 }
 
-#pQtt{
+#pQtt {
     font-family: sourcesemibold;
     font-size: 16px;
     opacity: 100%;
 }
 
-.greyBar{
+.greyBar {
     width: 370px;
     height: 16px;
 
@@ -637,7 +637,7 @@ time {
     border-radius: 3px;
 }
 
-#buttonCart{
+#buttonCart {
     width: 170px;
     height: 48px;
 
@@ -652,7 +652,7 @@ time {
 
 /* ----------------------------------------------------------------- CARDS SECTION --------------------------------------------------- */
 
-.cards{
+.cards {
     width: 100%;
     height: 768px;
 
@@ -664,7 +664,7 @@ time {
     align-items: center;
 }
 
-.cardsBox{
+.cardsBox {
     width: 1170px;
     height: 416px;
 
@@ -672,7 +672,7 @@ time {
     justify-content: space-between;
 }
 
-.card{
+.card {
     width: 370px;
     height: 416px;
 
@@ -681,12 +681,12 @@ time {
     box-shadow: 16px 16px 48px 0px rgba(0, 0, 0, 0.09);
 }
 
-.txtsCards{
+.txtsCards {
     width: 1170px;
     height: 94px;
 }
 
-#dateTxt{
+#dateTxt {
     font-family: sourcesemibold;
     font-size: 12px;
     opacity: 100%;
@@ -694,7 +694,7 @@ time {
 
 /* ---------------------------------------------------------- FOOTER ----------------------------------------------------------------- */
 
-.footer{
+.footer {
     width: 100%;
     height: 720px;
 
@@ -705,10 +705,10 @@ time {
 }
 
 
-.footerTop{
+.footerTop {
     width: 100%;
     height: 384px;
-    
+
     background-color: #3023AE;
 
     display: flex;
@@ -716,12 +716,47 @@ time {
     align-items: center;
 }
 
-.coluna1{
+#oval1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+    background-image: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    position: absolute;
+    left: 810px;
+    bottom: -3919px;
+}
+
+#oval2 {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+
+    background-image: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    position: absolute;
+    left: -63px;
+    bottom: -4303px;
+}
+
+#oval3 {
+    width: 323px;
+    height: 323px;
+    border-radius: 50%;
+
+    background-image: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+
+    position: absolute;
+    left: 966px;
+    bottom: -4365px;
+}
+
+
+.coluna1 {
     width: 470px;
     height: 185px;
 }
 
-#footerH1{
+#footerH1 {
     font-family: poppinsbold;
     font-size: 56px;
 
@@ -734,14 +769,22 @@ time {
     color: #ffffff;
 }
 
-.coluna2{
+.coluna2 {
     width: 570px;
-    height: 48px;
+    height: 76px;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
 }
 
-.footerBottom{
+#inputHeader{
+    width: 370px;
+    height: 47px;
+}
+
+.footerBottom {
     width: 100%;
     height: 336px;
 
@@ -751,9 +794,11 @@ time {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    z-index: 1;
 }
 
-.top{
+.top {
     width: 1091px;
     height: 120px;
 
@@ -762,7 +807,7 @@ time {
     align-items: center;
 }
 
-.bottom{
+.bottom {
     width: 1091px;
     height: 120px;
 
